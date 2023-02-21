@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/878d4e690e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/logo1.png" class="logo" alt="" /> -->
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <!-- <p>Software Engineer</p> -->
+          <h1>
+            Hi, <br> I'm
+            <span>Anik Sen</span>
+            , currently doing my B.Sc. in Computer Science & Engineering (Last
+            Semester excluding internship) at American International
+            University-Bangladesh (AIUB).
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------ About ------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/pic.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi, I am Anik Sen currently doing my B.Sc. in Computer Science &
+              Engineering (Last Semester excluding internship) at American
+              International University-Bangladesh (AIUB).My major area is
+              “Software Engineering”. I am preparing myself for the IT industry
+              in near future. I’m consistently learning new software and tools
+              and improving my programming skill.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span>
+                  <br />
+                  Designing Web/App interface
+                </li>
+                <li>
+                  <span>Web Development</span>
+                  <br />
+                  Web App Development
+                </li>
+                <li>
+                  <span>App Development</span>
+                  <br />
+                  Building Adroid/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>UI/UX</span>
+                  <br />
+                  Designing Web/App interface
+                </li>
+                <li>
+                  <span>Web Development</span>
+                  <br />
+                  Web App Development
+                </li>
+                <li>
+                  <span>App Development</span>
+                  <br />
+                  Building Adroid/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>UI/UX</span>
+                  <br />
+                  Designing Web/App interface
+                </li>
+                <li>
+                  <span>Web Development</span>
+                  <br />
+                  Web App Development
+                </li>
+                <li>
+                  <span>App Development</span>
+                  <br />
+                  Building Adroid/iOS apps
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------ Services --------------- -->
+
+    <div id="services">
+      <div class="container">
+        <div class="sub-title">My Services</div>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              vero assumenda earum libero odit quo facilis et ratione.
+              Reiciendis fugiat magnam aliquam, voluptatibus repellat vitae a
+              veritatis at nostrum labore?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              vero assumenda earum libero odit quo facilis et ratione.
+              Reiciendis fugiat magnam aliquam, voluptatibus repellat vitae a
+              veritatis at nostrum labore?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              vero assumenda earum libero odit quo facilis et ratione.
+              Reiciendis fugiat magnam aliquam, voluptatibus repellat vitae a
+              veritatis at nostrum labore?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------- portfolio -------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Mollitia, adipisci!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Mollitia, adipisci!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Music Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Mollitia, adipisci!
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- --------------- JS --------------- -->
+    <script>
+      var tabcontents = document.getElementsByClassName('tab-contents')
+      var tablinks = document.getElementsByClassName('tab-links')
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove('active-link')
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove('active-tab')
+        }
+        event.currentTarget.classList.add('active-link')
+        document.getElementById(tabname).classList.add('active-tab')
+      }
+    </script>
+  </body>
+</html>
